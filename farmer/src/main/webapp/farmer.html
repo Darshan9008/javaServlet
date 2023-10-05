@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Farmer</title>
+<h1>Welcome to farmer</h1>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<a href="index.html">Home page</a>
+<div>
+<br>
+<form action="cricket" >
+ <label for="name"><b>Name  :  </b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required><br><br>
+ <label for="area"><b>Land Area  :  </b></label>
+    <input type="text" placeholder="Enter area" name="area" id="area" required><br><br>
+    
+    <label for="soil">Choose a soil type:</label>
+
+<select name="soil" id="soil">
+  <option value="blackSoil">Black soil</option>
+  <option value="redSoil">Red Soil</option>
+  <option value="sandySoil">Sandy Soil </option>
+  <option value="claySoil">Clay Soil</option>
+</select>
+<br>
+<br>
+   <label for="crop">Choose a crop type:</label>
+
+<select name="crop" id="crop">
+  <option value="wheat">Wheat</option>
+  <option value="rice">Rice</option>
+  <option value="barley">Barley</option>
+  <option value="ragi">Ragi</option>
+</select>
+<br>
+<br>
+
+   <label for="fertilizer">Choose a fertilizer type:</label>
+
+<select name="fertilizer" id="fertilizer">
+  <option value="nitrogen">Nitrogen</option>
+  <option value="urea">Urea</option>
+  <option value="potassium">Potassium </option>
+  <option value="manure">Manure</option>
+</select>
+<br>
+<br>
+   <label for="season">Choose a season:</label>
+
+<select name="season" id="season">
+  <option value="summer">Summer</option>
+  <option value="winter">Winter</option>
+  <option value="rainy">Rainy </option>
+  <option value="spring">Spring</option>
+</select>
+<br><br>
+
+ <label for="investment"><b>Investment  :  </b></label>
+    <input type="text" placeholder="Enter investment" name="investment" id="investment" required><br><br>
+
+ <label for="profit"><b>Profit  :  </b></label>
+    <input type="text" placeholder="Enter profit" name="profit" id="profit" required><br><br>
+
+ <label for="seed"><b>Seed  :  </b></label>
+    <input type="text" placeholder="Enter seed type" name="seed" id="seed" required><br><br>
+
+<input type="submit" value="Send" class="btn btn-primary">
+
+</form>
+</div>
+
+</body>
+</html>
