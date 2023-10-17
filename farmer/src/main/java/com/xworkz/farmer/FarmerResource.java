@@ -26,6 +26,7 @@ public class FarmerResource extends HttpServlet {
 		String investment=req.getParameter("investment");
 		String profit=req.getParameter("profit");
 		String seed=req.getParameter("seed");
+	
 		
 		System.out.println("name:"+name);
 		System.out.println("area:"+area);
@@ -44,7 +45,6 @@ public class FarmerResource extends HttpServlet {
 		
 
 		writer.print("farmer name "+name+"owns the area "+area+"of the soil type"+soil+"has grown crops"+crop+"use the fertilizer+fertilizer"+"in the season"+season+"of the investment"+investment+"has taken the profit"+profit+"on the seed"+seed);
-		
 		
 		
 		writer.print("</body>");
