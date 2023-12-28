@@ -159,17 +159,17 @@ function validateForm() {
 	const stadiumName = document.getElementById("stadiumName").value;
 	const thirdUmpireName = document.getElementById("thirdUmpireName").value;
 	const stadiumCapcity = document.getElementById("stadiumCapcity");
-			var button = document.getElementById("button");
-			if (tournamentName.length >= 3 && tournamentName.length < 30 && hostingCountry.length >= 3 && hostingCountry.length < 30 && matchDate > 0 && matchDate <= 31 && team1.length >= 3 && 
-					team1.length < 30 && team2.length >= 3 && team2.length < 30 && team1CaptainName.length >= 3 && team1CaptainName.length < 30 && team2CaptainName.length >= 3
-					&& team2CaptainName.length < 30 && umpireName.length >= 3 && umpireName.length < 30 && stadiumName.length >= 3 && stadiumName.length < 30 && 
-					thirdUmpireName.length >= 3 && thirdUmpireName.length < 30 && stadiumCapcity > 2000 && stadiumCapcity <= 50000) {
-				document.getElementById("valid").innerHTML = "<span style='color:blue'>Information valid</span>";
-				button.removeAttribute("disabled");
-			} else {
-				document.getElementById("valid").innerHTML = "<span style='color:red'>Please enter Valid valid Information</span>";
-				button.setAttribute("disabled", "");
+	var button = document.getElementById("button");
+	if (tournamentName.length >= 3 && tournamentName.length < 30 && hostingCountry.length >= 3 && hostingCountry.length < 30 && matchDate > 0 && matchDate <= 31 && team1.length >= 3 &&
+		team1.length < 30 && team2.length >= 3 && team2.length < 30 && team1CaptainName.length >= 3 && team1CaptainName.length < 30 && team2CaptainName.length >= 3
+		&& team2CaptainName.length < 30 && umpireName.length >= 3 && umpireName.length < 30 && stadiumName.length >= 3 && stadiumName.length < 30 &&
+		thirdUmpireName.length >= 3 && thirdUmpireName.length < 30 && stadiumCapcity > 2000 && stadiumCapcity <= 50000) {
+		document.getElementById("valid").innerHTML = "<span style='color:blue'>Information valid</span>";
+		button.removeAttribute("disabled");
+	} else {
+		document.getElementById("valid").innerHTML = "<span style='color:red'>Please enter Valid valid Information</span>";
+		button.setAttribute("disabled", "");
 
-			}
-		}
+	}
+}
 
