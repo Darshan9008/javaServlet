@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>disease</artifactId>
+    <artifactId>katera</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>${hibernate.version}</version>
+            <version>5.6.15.Final</version>
         </dependency>
 
 
@@ -23,7 +23,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${sql.version}</version>
+            <version>8.0.33</version>
         </dependency>
 
 
@@ -46,14 +46,8 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>${lambok.version}</version>
+            <version>1.18.30</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-hikaricp</artifactId>
-            <version>5.6.15.Final</version>
         </dependency>
 
 
@@ -61,13 +55,11 @@
     </dependencies>
 
 
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <lambok.version>1.18.30</lambok.version>
-        <hibernate.version>5.6.15.Final</hibernate.version>
-        <sql.version>8.0.33</sql.version>
     </properties>
 
 </project>
